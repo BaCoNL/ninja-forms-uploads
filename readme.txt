@@ -3,9 +3,8 @@ Contributors: kstover, jameslaws
 Donate link: http://ninjaforms.com
 Tags: form, forms
 Requires at least: 1.0
-Tested up to: 4.5.2
-Stable tag: 1.4.9
-
+Tested up to: 4.7
+Stable tag: 3.0.6
 
 License: GPLv2 or later
 
@@ -27,6 +26,59 @@ This section describes how to install the plugin and get it working.
 For help and video tutorials, please visit our website: [NinjaForms.com](http://ninjaforms.com)
 
 == Changelog ==
+
+= 3.0.6 (12 April 2017) =
+
+*Bugs:*
+
+* Fixed the description text for custom file upload paths.
+* Fixed PHP warnings related to uploading a file to a remote server.
+* Links to uploaded files should now always show properly.
+* Fixed a bug that could cause unexpected output when displaying a form.
+
+= 3.0.5 (07 December 2016) =
+
+*Bugs:*
+
+* Fixed a bug that could cause file upload fields to fail with Ninja Forms versions > 3.0.17.
+
+= 3.0.4 (3 November 2016) =
+
+*Bugs:*
+
+* Fixed a bug with the Max File Upload Size setting.
+* Whitelisting file types should now work as explained in the help text.
+* File names can now be based upon the values of other fields using merge tags.
+
+*Changes:*
+
+* Added missing help text to the admin.
+
+= 3.0.3 (28 September 2016) =
+
+*Bugs:*
+
+* File Uploads should now show in Conditional Logic conditions.
+
+= 3.0.2 (09 September 2016) =
+
+* Update to 3.0.2
+
+*Bugs:*
+
+* Fixed SQL format that breaks dbdelta.
+* Fixed Dropbox case sensitive issues.
+* Fixed Multiple file selection bug.
+* Fixed a bug with uploading .jpg files.
+
+= 3.0.1 (06 September 2016) =
+
+* Updated with Ninja Forms v3.x compatibility
+
+= 3.0 (06 September 2016) =
+
+* Updated with Ninja Forms v3.x compatibility
+* Deprecated Ninja Forms v2.9.x compatible code
 
 = 1.4.9 (09 May 2016) =
 
