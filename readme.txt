@@ -3,7 +3,7 @@ Contributors: kstover, jameslaws
 Donate link: http://ninjaforms.com
 Tags: form, forms
 Requires at least: 1.0
-Tested up to: 4.8
+Tested up to: 4.9
 Stable tag: 3.0.8
 
 License: GPLv2 or later
